@@ -1,30 +1,28 @@
-// Title : Merge two sorted arrays into one
+// Title: Grasshopper: Basic Function fixer.
 
-// Instructions
-// Output
-// You are given two sorted arrays that both only contain integers. Your task is to 
-// find a way to merge them into a single one, sorted in asc order. Complete the 
-// function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
+// DESCRIPTION:
+// Fix the function
+// I created this function to add five to any number that was passed in to it and return the new value. It doesn't throw any errors but it returns the wrong number.
 
-// You don't need to worry about validation, since arr1 and arr2 must be arrays with 
-// 0 or more Integers. If both arr1 and arr2 are empty, then just return an empty array.
+// Can you help me fix the function?
 
-// Note: arr1 and arr2 may be sorted in different orders. Also arr1 and arr2 may have 
-// same integers. Remove duplicated in the returned result.
-
-// Examples (input -> output)
-// * [1, 2, 3, 4, 5], [6, 7, 8, 9, 10] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-// * [1, 3, 5, 7, 9], [10, 8, 6, 4, 2] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-// * [1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12] -> [1, 2, 3, 4, 5, 7, 9, 10, 11, 12]
-// Happy coding!
+// FUNDAMENTALS
 
 // My solution =>
 
-function mergeArrays(arr1, arr2) {
-    let combined  = arr1.concat(arr2);
-      combined = new Set(combined);
-      combined = Array.from(combined);
-      return combined.sort((num, num1) => num - num1);
-    }
+// function addFive(num) {
+//   num = num + 5
+//   return num;
+// }
+
+// function addFive(num) {
+//   num = num + 5
+//   return num;
+// }
+
+
+// function addFive(num) {
+//   num = num + 5
+//   return num;
+// }
+addFive = (num) => num += 5;
