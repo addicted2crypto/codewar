@@ -1,0 +1,9 @@
+// Description: Enumerable Magic - Does My List Include This?
+
+// Instructions
+// Output
+// Create a method that accepts a list and an item, and returns true 
+// if the item belongs to the list, otherwise false.
+// My Solution =>
+
+include = (arr, item)=> arr.includes(item) ? true : false
