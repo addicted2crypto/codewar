@@ -9,7 +9,7 @@
 // 3.3424 is rounded 3.34
 // FUNDAMENTALS
 
-// My Solution =>
+// My Solution => refactored on 5/26/2023 also
 
 function twoDecimalPlaces(n) {
     return Number(parseFloat(n).toFixed(2));                                                                                                                                                                                                                                             
