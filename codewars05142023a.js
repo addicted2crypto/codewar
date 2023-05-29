@@ -10,7 +10,7 @@
   
 // As you can see, the lists are cascading; ie, they overlap, but never out of order.
 
-// My Solution => 
+// My Solution => refactored
 
 function eachCons(array, n) {
 	let newArr = [];
