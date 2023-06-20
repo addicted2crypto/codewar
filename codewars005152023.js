@@ -25,7 +25,7 @@
 //   }
 //   return newArr;
 // }
-//optimal solution =>
+//added optimal solution =>
 
 
 function eachCons(array, n) {
