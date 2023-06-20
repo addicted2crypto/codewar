@@ -9,6 +9,7 @@
 
 
 // My Solution => 
+//refactored for time/space efficency 
 
 function nextItem(xs, item) {
     var difference = false;
